@@ -5,10 +5,12 @@ import { AppComponent } from './app.component';
 import { GithubuserComponent } from './githubuser/githubuser.component';
 import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
 import {MatCardModule} from '@angular/material/card';
+import { ShowusergithubComponent } from './showusergithub/showusergithub.component';
 @NgModule({
   declarations: [
     AppComponent,
-    GithubuserComponent
+    GithubuserComponent,
+    ShowusergithubComponent
   ],
   imports: [
     BrowserModule,

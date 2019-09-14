@@ -12,7 +12,7 @@ export class GithubService {
    }
    public fetchGithubUserDetails()
    {
-     const serchText='ab';
+     const serchText='tr';
     return this.http.get('https://api.github.com/search/users?q='+serchText)
 
    }

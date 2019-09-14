@@ -1,0 +1,8 @@
+<input type="text" placeholder="search" #inputtext>
+<button (click)="search(inputtext.value)">Search</button>
+<ul *ngFor="let user of searchResult.items">
+
+  <li>
+   {{user.login}}
+  </li>
+</ul>
